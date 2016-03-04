@@ -5,6 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "A Core Bluetooth helper library to simplify the development and testing of Core Bluetooth applications."
 
   s.description  = <<-DESC
+  		  A Core Bluetooth helper library to simplify the development and testing of Core Bluetooth applications.
                    DESC
 
   s.homepage     = "http://github.com/Raizlabs/RZBluetooth"
