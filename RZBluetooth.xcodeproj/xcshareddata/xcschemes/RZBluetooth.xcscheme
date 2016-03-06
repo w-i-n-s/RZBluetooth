@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AB45C4981B6BF70B00CC0166"
-               BuildableName = "libRZBluetooth.a"
+               BlueprintIdentifier = "C2DBEABE1C8CCEB500E62C9E"
+               BuildableName = "RZBluetooth.framework"
                BlueprintName = "RZBluetooth"
                ReferencedContainer = "container:RZBluetooth.xcodeproj">
             </BuildableReference>
@@ -57,8 +57,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AB45C4981B6BF70B00CC0166"
-            BuildableName = "libRZBluetooth.a"
+            BlueprintIdentifier = "C2DBEABE1C8CCEB500E62C9E"
+            BuildableName = "RZBluetooth.framework"
             BlueprintName = "RZBluetooth"
             ReferencedContainer = "container:RZBluetooth.xcodeproj">
          </BuildableReference>
@@ -79,8 +79,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AB45C4981B6BF70B00CC0166"
-            BuildableName = "libRZBluetooth.a"
+            BlueprintIdentifier = "C2DBEABE1C8CCEB500E62C9E"
+            BuildableName = "RZBluetooth.framework"
             BlueprintName = "RZBluetooth"
             ReferencedContainer = "container:RZBluetooth.xcodeproj">
          </BuildableReference>
@@ -97,8 +97,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AB45C4981B6BF70B00CC0166"
-            BuildableName = "libRZBluetooth.a"
+            BlueprintIdentifier = "C2DBEABE1C8CCEB500E62C9E"
+            BuildableName = "RZBluetooth.framework"
             BlueprintName = "RZBluetooth"
             ReferencedContainer = "container:RZBluetooth.xcodeproj">
          </BuildableReference>
