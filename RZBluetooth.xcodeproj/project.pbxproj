@@ -37,9 +37,9 @@
 		AB45C5441B6C065400CC0166 /* libRZMockBluetooth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB45C5051B6BF8D300CC0166 /* libRZMockBluetooth.a */; };
 		AB45C5471B6C09FD00CC0166 /* RZBInvocationLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45C5461B6C09FD00CC0166 /* RZBInvocationLog.m */; };
 		AB45C5511B70F8D800CC0166 /* CBService+RZBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45C5501B70F8D800CC0166 /* CBService+RZBExtension.m */; };
-		AB4BC55D1BF3EAC3002BFF78 /* RZBCentralManagerState.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4BC55A1BF3EAC3002BFF78 /* RZBCentralManagerState.m */; settings = {ASSET_TAGS = (); }; };
-		AB4BC55E1BF3EAC3002BFF78 /* RZBPeripheralState.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4BC55C1BF3EAC3002BFF78 /* RZBPeripheralState.m */; settings = {ASSET_TAGS = (); }; };
-		ABA4827C1C18B44400709F8F /* RZBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA4827B1C18B44400709F8F /* RZBLog.m */; settings = {ASSET_TAGS = (); }; };
+		AB4BC55D1BF3EAC3002BFF78 /* RZBCentralManagerState.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4BC55A1BF3EAC3002BFF78 /* RZBCentralManagerState.m */; };
+		AB4BC55E1BF3EAC3002BFF78 /* RZBPeripheralState.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4BC55C1BF3EAC3002BFF78 /* RZBPeripheralState.m */; };
+		ABA4827C1C18B44400709F8F /* RZBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA4827B1C18B44400709F8F /* RZBLog.m */; };
 		ABCD83781B71D1F900DA1162 /* RZBMockCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCD83731B71D1F900DA1162 /* RZBMockCentralManager.m */; };
 		ABCD83791B71D1F900DA1162 /* RZBMockPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCD83751B71D1F900DA1162 /* RZBMockPeripheral.m */; };
 		ABCD837A1B71D1F900DA1162 /* RZBMockPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCD83771B71D1F900DA1162 /* RZBMockPeripheralManager.m */; };
@@ -48,9 +48,9 @@
 		ABCD83821B73DD2600DA1162 /* RZBSimulatedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCD83811B73DD2600DA1162 /* RZBSimulatedTests.m */; };
 		ABCD83841B73DE5D00DA1162 /* RZBProfileBatteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCD83831B73DE5D00DA1162 /* RZBProfileBatteryTests.m */; };
 		ABCD83AE1B7ACF9E00DA1162 /* RZBSimulatedDevice+RZBBatteryLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCD83AD1B7ACF9E00DA1162 /* RZBSimulatedDevice+RZBBatteryLevel.m */; };
-		ABCF15081C04D443002DA9BE /* RZBPeripheralManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCF15071C04D443002DA9BE /* RZBPeripheralManagerTests.m */; settings = {ASSET_TAGS = (); }; };
-		ABEA8FC21BF2740200543BC3 /* RZBUserInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEA8FC11BF2740200543BC3 /* RZBUserInteraction.m */; settings = {ASSET_TAGS = (); }; };
-		ABEA8FC41BF28D6A00543BC3 /* RZBUserInteractionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEA8FC31BF28D6A00543BC3 /* RZBUserInteractionTests.m */; settings = {ASSET_TAGS = (); }; };
+		ABCF15081C04D443002DA9BE /* RZBPeripheralManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCF15071C04D443002DA9BE /* RZBPeripheralManagerTests.m */; };
+		ABEA8FC21BF2740200543BC3 /* RZBUserInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEA8FC11BF2740200543BC3 /* RZBUserInteraction.m */; };
+		ABEA8FC41BF28D6A00543BC3 /* RZBUserInteractionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEA8FC31BF28D6A00543BC3 /* RZBUserInteractionTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -660,6 +660,7 @@
 		AB45C4AE1B6BF70B00CC0166 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -669,6 +670,7 @@
 		AB45C4AF1B6BF70B00CC0166 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
