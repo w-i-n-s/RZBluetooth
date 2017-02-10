@@ -35,7 +35,7 @@
         self.scanCallback = [RZBSimulatedCallback callbackOnQueue:central.mockCentralManager.queue];
         self.scanCallback.paused = YES;
         self.connectCallback = [RZBSimulatedCallback callbackOnQueue:central.mockCentralManager.queue];
-        self.cancelConncetionCallback = [RZBSimulatedCallback callbackOnQueue:central.mockCentralManager.queue];
+        self.cancelConnectionCallback = [RZBSimulatedCallback callbackOnQueue:central.mockCentralManager.queue];
         self.readRSSICallback = [RZBSimulatedCallback callbackOnQueue:central.mockCentralManager.queue];
         self.discoverServiceCallback = [RZBSimulatedCallback callbackOnQueue:central.mockCentralManager.queue];
         self.discoverCharacteristicCallback = [RZBSimulatedCallback callbackOnQueue:central.mockCentralManager.queue];
@@ -123,7 +123,7 @@
 {
     NSMutableArray *allCallbacks = [self.connectionDependentCallbacks mutableCopy];
     [allCallbacks addObject:self.scanCallback];
-    [allCallbacks addObject:self.cancelConncetionCallback];
+    [allCallbacks addObject:self.cancelConnectionCallback];
     return allCallbacks;
 }
 
