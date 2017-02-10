@@ -79,7 +79,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  callback will call fakeDisconnectPeripheralWithUUID:error: when the callback is not paused,
  *  after the specified delay, and will pass in the `injectError` property if set.
  */
-@property (strong, nonatomic) RZBSimulatedCallback *cancelConncetionCallback;
+@property (strong, nonatomic) RZBSimulatedCallback *cancelConnectionCallback;
 
 /**
  *  The connectCallback property controls how the mockCentralManager:connectPeripheral:options:
